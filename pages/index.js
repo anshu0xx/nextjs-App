@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-
+import TypeWriter from './components/TypeWriter';
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Anshu Sharma</title>
       </Head>
-
       <main className={styles.main}>
+        <TypeWriter />
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
